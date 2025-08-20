@@ -1,8 +1,6 @@
 {
-  // Hide the floating "configure python environment" prompt
   "python.showEnvironmentPrompt": false,
 
-  // Suppress annoying import errors like "Import 'odoo' could not be resolved"
   "python.analysis.diagnosticSeverityOverrides": {
     "reportMissingImports": "none"
   }

@@ -1,9 +1,9 @@
 <odoo>
     <data>
         <!-- Book Category Menu Item -->
-        <!-- Note: Will use library.menu_library_root once we confirm the correct XML ID -->
         <menuitem id="menu_library_book_category"
                   name="Book Categories"
+                  parent="library.menu_library_root"
                   action="action_library_book_category"
                   sequence="20"/>
     </data>
